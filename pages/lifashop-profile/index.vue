@@ -106,7 +106,7 @@ export default {
     return {
       userInfo: {
         name: '张小美',
-        avatar: '/static/lifashop/avatar.jpg',
+        avatar: 'https://images.unsplash.com/photo-1494790108755-2616b612b142?w=200&h=200&fit=crop&auto=format',
         memberLevel: '黄金会员',
         phone: '138****8888',
         points: 2580,
@@ -116,26 +116,26 @@ export default {
         {
           id: 1,
           title: '我的预约',
-          icon: '/static/lifashop/icons/appointment.png',
+          icon: 'https://img.icons8.com/fluency/96/calendar.png',
           url: '/pages/lifashop-appointment/my-list'
         },
         {
           id: 2,
           title: '消费记录',
-          icon: '/static/lifashop/icons/record.png',
+          icon: 'https://img.icons8.com/fluency/96/receipt.png',
           url: '/pages/lifashop-order/list'
         },
         {
           id: 3,
           title: '优惠券',
-          icon: '/static/lifashop/icons/coupon.png',
+          icon: 'https://img.icons8.com/fluency/96/ticket.png',
           url: '/pages/lifashop-coupon/my-list',
           badge: '3'
         },
         {
           id: 4,
           title: '储值卡',
-          icon: '/static/lifashop/icons/card.png',
+          icon: 'https://img.icons8.com/fluency/96/credit-card.png',
           url: '/pages/lifashop-card/balance'
         }
       ],
@@ -189,7 +189,7 @@ export default {
         {
           id: 1,
           name: 'Tony老师',
-          image: '/static/lifashop/stylists/tony.jpg',
+          image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&auto=format',
           price: '298',
           category: '发型师',
           rating: 4.9,
@@ -198,7 +198,7 @@ export default {
         {
           id: 2,
           name: '时尚烫发',
-          image: '/static/lifashop/services/perm.jpg',
+          image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=400&h=300&fit=crop&auto=format',
           price: '298',
           category: '服务',
           rating: 4.8,
@@ -207,7 +207,7 @@ export default {
         {
           id: 3,
           name: 'Kevin',
-          image: '/static/lifashop/stylists/kevin.jpg',
+          image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&auto=format',
           price: '198',
           category: '发型师',
           rating: 4.8,

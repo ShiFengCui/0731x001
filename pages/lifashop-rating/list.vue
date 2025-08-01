@@ -119,7 +119,7 @@ export default {
           serviceName: '精致洗剪吹',
           stylistName: 'Tony老师',
           date: '2024-01-10',
-          image: '/static/lifashop/services/cut.jpg',
+          image: 'https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=400&h=300&fit=crop&auto=format',
           orderId: 'LF202401001'
         },
         {
@@ -127,7 +127,7 @@ export default {
           serviceName: '时尚烫发',
           stylistName: 'Kevin',
           date: '2024-01-08',
-          image: '/static/lifashop/services/perm.jpg',
+          image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=400&h=300&fit=crop&auto=format',
           orderId: 'LF202401002'
         }
       ],
@@ -135,15 +135,15 @@ export default {
         {
           id: 1,
           username: '张小美',
-          avatar: '/static/lifashop/users/user1.jpg',
+          avatar: 'https://images.unsplash.com/photo-1494790108755-2616b612b142?w=100&h=100&fit=crop&auto=format',
           rating: 5,
           date: '2024-01-12',
           content: 'Tony老师的技术真的很棒，剪出来的效果超出预期！店里环境也很好，服务很贴心。',
           serviceName: '精致洗剪吹',
           stylistName: 'Tony老师',
           images: [
-            '/static/lifashop/reviews/review1-1.jpg',
-            '/static/lifashop/reviews/review1-2.jpg'
+            'https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=300&h=300&fit=crop&auto=format',
+            'https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=300&h=300&fit=crop&auto=format'
           ],
           likes: 12,
           replies: [
@@ -160,7 +160,7 @@ export default {
         {
           id: 2,
           username: '李先生',
-          avatar: '/static/lifashop/users/user2.jpg',
+          avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&auto=format',
           rating: 4,
           date: '2024-01-11',
           content: 'Kevin的烫发技术不错，效果还是挺满意的。不过等待时间有点长。',
@@ -175,14 +175,14 @@ export default {
         {
           id: 3,
           username: '王小姐',
-          avatar: '/static/lifashop/users/user3.jpg',
+          avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&auto=format',
           rating: 5,
           date: '2024-01-10',
           content: 'Amy的服务真的很好，很温柔很专业。剪完头发整个人都精神了！强烈推荐！',
           serviceName: '女士精剪',
           stylistName: 'Amy',
           images: [
-            '/static/lifashop/reviews/review3-1.jpg'
+            'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300&h=300&fit=crop&auto=format'
           ],
           likes: 15,
           replies: [
@@ -199,7 +199,7 @@ export default {
         {
           id: 4,
           username: '赵大哥',
-          avatar: '/static/lifashop/users/user4.jpg',
+          avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&auto=format',
           rating: 3,
           date: '2024-01-09',
           content: '整体还可以，就是价格有点贵。David的技术还行，但没有想象中那么好。',
@@ -214,16 +214,16 @@ export default {
         {
           id: 5,
           username: '陈女士',
-          avatar: '/static/lifashop/users/user5.jpg',
+          avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop&auto=format',
           rating: 5,
           date: '2024-01-08',
           content: '第一次来这家店，感觉非常棒！Lisa虽然年轻但技术很好，创意十足。店里装修也很有格调。',
           serviceName: '创意造型',
           stylistName: 'Lisa',
           images: [
-            '/static/lifashop/reviews/review5-1.jpg',
-            '/static/lifashop/reviews/review5-2.jpg',
-            '/static/lifashop/reviews/review5-3.jpg'
+            'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300&h=300&fit=crop&auto=format',
+            'https://images.unsplash.com/photo-1562322140-8198f8bbc8d9?w=300&h=300&fit=crop&auto=format',
+            'https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=300&h=300&fit=crop&auto=format'
           ],
           likes: 20,
           replies: [
@@ -290,7 +290,7 @@ export default {
       const newReview = {
         id: Date.now(),
         username: '我',
-        avatar: '/static/lifashop/avatar.jpg',
+        avatar: 'https://images.unsplash.com/photo-1494790108755-2616b612b142?w=100&h=100&fit=crop&auto=format',
         rating: reviewData.rating,
         date: new Date().toISOString().split('T')[0],
         content: reviewData.content,

@@ -109,11 +109,11 @@ export default {
           selected: false 
         }
       ],
-      serviceList: [
+             serviceList: [
         {
           id: 1,
           name: '精致洗剪吹',
-          image: '/static/lifashop/services/cut.jpg',
+          image: 'https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=400&h=300&fit=crop&auto=format',
           price: '88',
           originalPrice: '128',
           description: '专业洗发+精剪+造型，适合日常维护',
@@ -125,7 +125,7 @@ export default {
         {
           id: 2,
           name: '商务男士理发',
-          image: '/static/lifashop/services/business-cut.jpg',
+          image: 'https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=400&h=300&fit=crop&auto=format',
           price: '108',
           originalPrice: '148',
           description: '商务人士专属，干练精神',
@@ -137,7 +137,7 @@ export default {
         {
           id: 3,
           name: '时尚烫发',
-          image: '/static/lifashop/services/perm.jpg',
+          image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=400&h=300&fit=crop&auto=format',
           price: '298',
           originalPrice: '398',
           description: '韩式烫发+护理，打造时尚卷发',
@@ -149,7 +149,7 @@ export default {
         {
           id: 4,
           name: '纹理烫',
-          image: '/static/lifashop/services/texture-perm.jpg',
+          image: 'https://images.unsplash.com/photo-1562322140-8198f8bbc8d9?w=400&h=300&fit=crop&auto=format',
           price: '258',
           originalPrice: '328',
           description: '自然纹理，增加层次感',
@@ -161,7 +161,7 @@ export default {
         {
           id: 5,
           name: '潮流染发',
-          image: '/static/lifashop/services/color.jpg',
+          image: 'https://images.unsplash.com/photo-1562322140-8198f8bbc8d9?w=400&h=300&fit=crop&auto=format',
           price: '258',
           originalPrice: '328',
           description: '进口染膏+专业护色，持久亮丽',
@@ -173,7 +173,7 @@ export default {
         {
           id: 6,
           name: '挑染',
-          image: '/static/lifashop/services/highlight.jpg',
+          image: 'https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400&h=300&fit=crop&auto=format',
           price: '188',
           originalPrice: '248',
           description: '局部挑染，时尚个性',
@@ -185,7 +185,7 @@ export default {
         {
           id: 7,
           name: '深度护理',
-          image: '/static/lifashop/services/treatment.jpg',
+          image: 'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=400&h=300&fit=crop&auto=format',
           price: '128',
           originalPrice: '168',
           description: '专业护理，修复受损发质',
@@ -197,7 +197,7 @@ export default {
         {
           id: 8,
           name: '头皮SPA',
-          image: '/static/lifashop/services/scalp-spa.jpg',
+          image: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=400&h=300&fit=crop&auto=format',
           price: '158',
           originalPrice: '198',
           description: '头皮深层清洁+按摩放松',
@@ -209,7 +209,7 @@ export default {
         {
           id: 9,
           name: '个性化造型设计',
-          image: '/static/lifashop/services/custom-styling.jpg',
+          image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&h=300&fit=crop&auto=format',
           price: '388',
           originalPrice: '488',
           description: '根据脸型和气质量身定制',
@@ -221,7 +221,7 @@ export default {
         {
           id: 10,
           name: '新娘造型',
-          image: '/static/lifashop/services/bridal.jpg',
+          image: 'https://images.unsplash.com/photo-1457972729786-0411a3b2b626?w=400&h=300&fit=crop&auto=format',
           price: '588',
           originalPrice: '688',
           description: '新娘专属造型，完美婚礼',

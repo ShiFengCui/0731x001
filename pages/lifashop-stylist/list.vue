@@ -66,7 +66,7 @@ export default {
         {
           id: 1,
           name: 'Tony老师',
-          image: '/static/lifashop/stylists/tony.jpg',
+          image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&auto=format',
           price: '298',
           originalPrice: '398',
           description: '10年经验，擅长时尚造型、商务发型',
@@ -81,7 +81,7 @@ export default {
         {
           id: 2,
           name: 'Kevin',
-          image: '/static/lifashop/stylists/kevin.jpg',
+          image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&auto=format',
           price: '198',
           originalPrice: '268',
           description: '烫染专家，擅长日韩风格造型',
@@ -96,7 +96,7 @@ export default {
         {
           id: 3,
           name: 'Amy',
-          image: '/static/lifashop/stylists/amy.jpg',
+          image: 'https://images.unsplash.com/photo-1494790108755-2616b612b142?w=300&h=300&fit=crop&auto=format',
           price: '168',
           originalPrice: '218',
           description: '女士造型专家，温柔细致',
@@ -111,7 +111,7 @@ export default {
         {
           id: 4,
           name: 'David',
-          image: '/static/lifashop/stylists/david.jpg',
+          image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop&auto=format',
           price: '228',
           originalPrice: '298',
           description: '男士造型专家，商务风格',
@@ -126,7 +126,7 @@ export default {
         {
           id: 5,
           name: 'Lisa',
-          image: '/static/lifashop/stylists/lisa.jpg',
+          image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&auto=format',
           price: '138',
           originalPrice: '188',
           description: '新锐发型师，创意十足',
@@ -141,7 +141,7 @@ export default {
         {
           id: 6,
           name: 'Michael',
-          image: '/static/lifashop/stylists/michael.jpg',
+          image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&h=300&fit=crop&auto=format',
           price: '188',
           originalPrice: '238',
           description: '色彩搭配专家，个性时尚',

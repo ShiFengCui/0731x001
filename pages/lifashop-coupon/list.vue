@@ -248,7 +248,7 @@ export default {
       festivalBanners: [
         {
           id: 1,
-          image: '/static/lifashop/festival-banner.jpg',
+          image: 'https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=800&h=400&fit=crop&auto=format',
           title: '新年优惠大放送',
           url: '/pages/lifashop-activity/festival'
         }

@@ -85,7 +85,7 @@ export default {
         points: 2580,
         totalPoints: 5680,
         balance: 380,
-        avatar: '/static/lifashop/avatar.jpg',
+        avatar: 'https://images.unsplash.com/photo-1494790108755-2616b612b142?w=200&h=200&fit=crop&auto=format',
         joinDate: '2023-03-15',
         consumeAmount: 3680,
         visitCount: 28
@@ -137,7 +137,7 @@ export default {
           id: 1,
           name: '洗发券',
           points: 200,
-          image: '/static/lifashop/exchange/wash.jpg',
+          image: 'https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=300&h=200&fit=crop&auto=format',
           description: '免费洗发一次',
           stock: 50
         },
@@ -145,7 +145,7 @@ export default {
           id: 2,
           name: '护理券',
           points: 500,
-          image: '/static/lifashop/exchange/care.jpg',
+          image: 'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=300&h=200&fit=crop&auto=format',
           description: '深度护理一次',
           stock: 20
         },
@@ -153,7 +153,7 @@ export default {
           id: 3,
           name: '造型券',
           points: 800,
-          image: '/static/lifashop/exchange/styling.jpg',
+          image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300&h=200&fit=crop&auto=format',
           description: '专业造型一次',
           stock: 10
         },
@@ -161,7 +161,7 @@ export default {
           id: 4,
           name: '9折券',
           points: 300,
-          image: '/static/lifashop/exchange/discount.jpg',
+          image: 'https://img.icons8.com/fluency/96/discount.png',
           description: '全店9折优惠券',
           stock: 30
         }

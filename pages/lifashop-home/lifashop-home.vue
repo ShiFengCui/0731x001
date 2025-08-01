@@ -83,19 +83,19 @@ export default {
       bannerList: [
         {
           id: 1,
-          image: '/static/lifashop/banner1.jpg',
+          image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&h=400&fit=crop&auto=format',
           title: '新年新造型',
           url: '/pages/lifashop-service/detail?id=1'
         },
         {
           id: 2,
-          image: '/static/lifashop/banner2.jpg',
+          image: 'https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=800&h=400&fit=crop&auto=format',
           title: '明星发型师',
           url: '/pages/lifashop-stylist/list'
         },
         {
           id: 3,
-          image: '/static/lifashop/banner3.jpg',
+          image: 'https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&h=400&fit=crop&auto=format',
           title: '会员特惠',
           url: '/pages/lifashop-member/center'
         }
@@ -111,51 +111,51 @@ export default {
         {
           id: 1,
           title: '在线预约',
-          icon: '/static/lifashop/icons/appointment.png',
+          icon: 'https://img.icons8.com/fluency/96/calendar.png',
           url: '/pages/lifashop-appointment/index',
           badge: 'hot'
         },
         {
           id: 2,
           title: '发型师',
-          icon: '/static/lifashop/icons/stylist.png',
+          icon: 'https://img.icons8.com/fluency/96/user.png',
           url: '/pages/lifashop-stylist/list'
         },
         {
           id: 3,
           title: '会员中心',
-          icon: '/static/lifashop/icons/member.png',
+          icon: 'https://img.icons8.com/fluency/96/crown.png',
           url: '/pages/lifashop-member/center'
         },
         {
           id: 4,
           title: '优惠券',
-          icon: '/static/lifashop/icons/coupon.png',
+          icon: 'https://img.icons8.com/fluency/96/ticket.png',
           url: '/pages/lifashop-coupon/list',
           badge: 'new'
         },
         {
           id: 5,
           title: '服务项目',
-          icon: '/static/lifashop/icons/service.png',
+          icon: 'https://img.icons8.com/fluency/96/scissors.png',
           url: '/pages/lifashop-service/list'
         },
         {
           id: 6,
           title: '门店信息',
-          icon: '/static/lifashop/icons/store.png',
+          icon: 'https://img.icons8.com/fluency/96/shop.png',
           url: '/pages/lifashop-store/info'
         },
         {
           id: 7,
           title: '客服',
-          icon: '/static/lifashop/icons/service.png',
+          icon: 'https://img.icons8.com/fluency/96/customer-support.png',
           url: '/pages/lifashop-customer/service'
         },
         {
           id: 8,
           title: '评价',
-          icon: '/static/lifashop/icons/rating.png',
+          icon: 'https://img.icons8.com/fluency/96/star.png',
           url: '/pages/lifashop-rating/list'
         }
       ],
@@ -169,7 +169,7 @@ export default {
         {
           id: 1,
           name: 'Tony老师',
-          image: '/static/lifashop/stylists/tony.jpg',
+          image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&auto=format',
           price: '298',
           originalPrice: '398',
           description: '10年经验，擅长时尚造型',
@@ -179,7 +179,7 @@ export default {
         {
           id: 2,
           name: 'Kevin',
-          image: '/static/lifashop/stylists/kevin.jpg',
+          image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&auto=format',
           price: '198',
           originalPrice: '268',
           description: '烫染专家，日韩风格',
@@ -189,7 +189,7 @@ export default {
         {
           id: 3,
           name: 'Amy',
-          image: '/static/lifashop/stylists/amy.jpg',
+          image: 'https://images.unsplash.com/photo-1494790108755-2616b612b142?w=300&h=300&fit=crop&auto=format',
           price: '168',
           originalPrice: '218',
           description: '女士造型专家',
@@ -199,7 +199,7 @@ export default {
         {
           id: 4,
           name: 'David',
-          image: '/static/lifashop/stylists/david.jpg',
+          image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop&auto=format',
           price: '228',
           originalPrice: '298',
           description: '男士造型，商务风格',
@@ -212,7 +212,7 @@ export default {
         {
           id: 1,
           name: '精致洗剪吹',
-          image: '/static/lifashop/services/cut.jpg',
+          image: 'https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=400&h=300&fit=crop&auto=format',
           price: '88',
           originalPrice: '128',
           description: '专业洗发+精剪+造型',
@@ -222,7 +222,7 @@ export default {
         {
           id: 2,
           name: '时尚烫发',
-          image: '/static/lifashop/services/perm.jpg',
+          image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=400&h=300&fit=crop&auto=format',
           price: '298',
           originalPrice: '398',
           description: '韩式烫发+护理',
@@ -232,7 +232,7 @@ export default {
         {
           id: 3,
           name: '潮流染发',
-          image: '/static/lifashop/services/color.jpg',
+          image: 'https://images.unsplash.com/photo-1562322140-8198f8bbc8d9?w=400&h=300&fit=crop&auto=format',
           price: '258',
           originalPrice: '328',
           description: '进口染膏+专业护色',
