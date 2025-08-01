@@ -1,6 +1,79 @@
 {
 	"pages": [
 		{
+			"path": "pages/lifashop-home/lifashop-home",
+			"style": {
+				"navigationBarTitleText": "理发店",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "default",
+				"navigationBarBackgroundColor": "#ff6b35",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/lifashop-service/list",
+			"style": {
+				"navigationBarTitleText": "服务项目",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#ff6b35",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/lifashop-appointment/index",
+			"style": {
+				"navigationBarTitleText": "在线预约",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#ff6b35",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/lifashop-member/center",
+			"style": {
+				"navigationBarTitleText": "会员中心",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#ff6b35",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/lifashop-profile/index",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#ff6b35",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/lifashop-stylist/list",
+			"style": {
+				"navigationBarTitleText": "发型师团队",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#ff6b35",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/lifashop-coupon/list",
+			"style": {
+				"navigationBarTitleText": "优惠券中心",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#ff6b35",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/lifashop-rating/list",
+			"style": {
+				"navigationBarTitleText": "评价中心",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#ff6b35",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
 			"path": "pages/luckin-home/luckin-home",
 			"style": {
 				"navigationBarTitleText": "瑞幸咖啡",
@@ -55,36 +128,36 @@
 	],
 	"tabBar": {
 		"color": "#999999",
-		"selectedColor": "#00B578",
+		"selectedColor": "#ff6b35",
 		"backgroundColor": "#ffffff",
 		"borderStyle": "black",
 		"list": [
 			{
-				"pagePath": "pages/luckin-home/luckin-home",
+				"pagePath": "pages/lifashop-home/lifashop-home",
 				"iconPath": "static/icons/tab-home.png",
 				"selectedIconPath": "static/icons/tab-home-active.png",
 				"text": "首页"
 			},
 			{
-				"pagePath": "pages/menu/index",
-				"iconPath": "static/icons/tab-menu.png",
-				"selectedIconPath": "static/icons/tab-menu-active.png",
-				"text": "点餐"
+				"pagePath": "pages/lifashop-service/list",
+				"iconPath": "static/icons/tab-service.png",
+				"selectedIconPath": "static/icons/tab-service-active.png",
+				"text": "服务"
 			},
 			{
-				"pagePath": "pages/order/list",
-				"iconPath": "static/icons/tab-order.png",
-				"selectedIconPath": "static/icons/tab-order-active.png",
-				"text": "订单"
+				"pagePath": "pages/lifashop-appointment/index",
+				"iconPath": "static/icons/tab-appointment.png",
+				"selectedIconPath": "static/icons/tab-appointment-active.png",
+				"text": "预约"
 			},
 			{
-				"pagePath": "pages/member/center",
+				"pagePath": "pages/lifashop-member/center",
 				"iconPath": "static/icons/tab-member.png",
 				"selectedIconPath": "static/icons/tab-member-active.png",
 				"text": "会员"
 			},
 			{
-				"pagePath": "pages/profile/index",
+				"pagePath": "pages/lifashop-profile/index",
 				"iconPath": "static/icons/tab-profile.png",
 				"selectedIconPath": "static/icons/tab-profile-active.png",
 				"text": "我的"
@@ -93,8 +166,8 @@
 	},
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
-		"navigationBarTitleText": "瑞幸咖啡",
-		"navigationBarBackgroundColor": "#00B578",
+		"navigationBarTitleText": "理发店",
+		"navigationBarBackgroundColor": "#ff6b35",
 		"backgroundColor": "#f5f5f5"
 	},
 	"uniIdRouter": {},
