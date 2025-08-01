@@ -111,51 +111,51 @@ export default {
         {
           id: 1,
           title: '在线预约',
-          icon: 'https://img.icons8.com/fluency/96/calendar.png',
+          icon: 'https://img.icons8.com/color/96/appointment-scheduling.png',
           url: '/pages/lifashop-appointment/index',
           badge: 'hot'
         },
         {
           id: 2,
           title: '发型师',
-          icon: 'https://img.icons8.com/fluency/96/user.png',
+          icon: 'https://img.icons8.com/color/96/hairdresser-male.png',
           url: '/pages/lifashop-stylist/list'
         },
         {
           id: 3,
           title: '会员中心',
-          icon: 'https://img.icons8.com/fluency/96/crown.png',
+          icon: 'https://img.icons8.com/color/96/vip.png',
           url: '/pages/lifashop-member/center'
         },
         {
           id: 4,
           title: '优惠券',
-          icon: 'https://img.icons8.com/fluency/96/ticket.png',
+          icon: 'https://img.icons8.com/color/96/discount.png',
           url: '/pages/lifashop-coupon/list',
           badge: 'new'
         },
         {
           id: 5,
           title: '服务项目',
-          icon: 'https://img.icons8.com/fluency/96/scissors.png',
+          icon: 'https://img.icons8.com/color/96/hair-scissors.png',
           url: '/pages/lifashop-service/list'
         },
         {
           id: 6,
           title: '门店信息',
-          icon: 'https://img.icons8.com/fluency/96/shop.png',
+          icon: 'https://img.icons8.com/color/96/beauty-salon.png',
           url: '/pages/lifashop-store/info'
         },
         {
           id: 7,
           title: '客服',
-          icon: 'https://img.icons8.com/fluency/96/customer-support.png',
+          icon: 'https://img.icons8.com/color/96/technical-support.png',
           url: '/pages/lifashop-customer/service'
         },
         {
           id: 8,
           title: '评价',
-          icon: 'https://img.icons8.com/fluency/96/star.png',
+          icon: 'https://img.icons8.com/color/96/review.png',
           url: '/pages/lifashop-rating/list'
         }
       ],

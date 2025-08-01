@@ -116,26 +116,26 @@ export default {
         {
           id: 1,
           title: '我的预约',
-          icon: 'https://img.icons8.com/fluency/96/calendar.png',
+          icon: 'https://img.icons8.com/color/96/appointment-scheduling.png',
           url: '/pages/lifashop-appointment/my-list'
         },
         {
           id: 2,
           title: '消费记录',
-          icon: 'https://img.icons8.com/fluency/96/receipt.png',
+          icon: 'https://img.icons8.com/color/96/bill.png',
           url: '/pages/lifashop-order/list'
         },
         {
           id: 3,
           title: '优惠券',
-          icon: 'https://img.icons8.com/fluency/96/ticket.png',
+          icon: 'https://img.icons8.com/color/96/discount.png',
           url: '/pages/lifashop-coupon/my-list',
           badge: '3'
         },
         {
           id: 4,
           title: '储值卡',
-          icon: 'https://img.icons8.com/fluency/96/credit-card.png',
+          icon: 'https://img.icons8.com/color/96/membership-card.png',
           url: '/pages/lifashop-card/balance'
         }
       ],
